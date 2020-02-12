@@ -10,6 +10,13 @@ function App() {
         <p>
           Vidia POC Project v0
         </p>
+        <a
+          className="App-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Work in Progress
+        </a>
       </header>
     </div>
   );
