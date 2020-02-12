@@ -1,25 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Upload from './upload/Upload'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Vidia POC Project v0
-        </p>
-        <a
-          className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Work in Progress
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+        <div className="App">
+          <h1>
+            Vidia POC Project v0
+          </h1>
+          <p>
+            Work In Progress
+          </p>
+          <div className="Card">
+            <Upload />
+          </div>
+        </div>
+    )
+  }
 }
 
-export default App;
+export default App
